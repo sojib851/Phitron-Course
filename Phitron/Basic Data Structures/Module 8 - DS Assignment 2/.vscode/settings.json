@@ -1,0 +1,10 @@
+{
+    "files.associations": {
+        "iostream": "cpp"
+    },
+    "editor.cursorSmoothCaretAnimation": "on",
+    "workbench.list.smoothScrolling": true,
+    "editor.smoothScrolling": true,
+    "terminal.integrated.smoothScrolling": false,
+    "editor.cursorBlinking": "smooth"
+}

@@ -1,0 +1,10 @@
+{
+    "files.associations": {
+        "new": "cpp"
+    },
+    "editor.cursorBlinking": "expand",
+    "editor.overtypeCursorStyle": "block",
+    "editor.cursorSurroundingLinesStyle": "all",
+    "terminal.integrated.cursorBlinking": true,
+    "editor.cursorSmoothCaretAnimation": "on"
+}
