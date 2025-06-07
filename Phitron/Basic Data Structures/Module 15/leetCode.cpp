@@ -1,12 +1,17 @@
-#include <bits/stdc++.h>
+#include<bits/stdc++.h>
 using namespace std;
 
 int main()
 {
-    for (int i = 0; i < 10; i++)
+    int a = 0;
+    int b = 5;
+
+    cout << a + b << " " << endl;
+    for (int i = 0; i < 5; i++)
     {
-        cout << i << endl;
+        cout << i << " ";
     }
+    
 
     return 0;
 }

@@ -18,6 +18,7 @@ int main()
         if (a[i] == a[i - 1])
         {
             cout << "YES";
+
             return 0;
         }
     }
