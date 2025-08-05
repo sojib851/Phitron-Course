@@ -34,22 +34,12 @@ int main()
         }
         st.pop();
         qu.pop();
-        
     }
 
-    if (!empty)
-    {
-        
-    }
-    
-    
-
-    if (same) cout << "YES";
-    else cout << "NO";
-
-    
-    
-    
+    if (same)
+        cout << "YES";
+    else
+        cout << "NO";
 
     return 0;
 }
