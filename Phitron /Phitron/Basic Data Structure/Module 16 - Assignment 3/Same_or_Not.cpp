@@ -3,12 +3,10 @@ using namespace std;
 
 int main()
 {
-    stack<int> st;
-    queue<int> qu;
-
     int n, m;
     cin >> n >> m;
 
+    stack<int> st;
     for (int i = 0; i < n; i++)
     {
         int x;
@@ -16,17 +14,24 @@ int main()
         st.push(x);
     }
 
+    queue<int> qu;
     for (int i = 0; i < m; i++)
     {
-        int x;
-        cin >> x;
-        qu.push(x);
+        int y;
+        cin >> y;
+        qu.push(y);
     }
 
     bool same = true;
 
     while (!st.empty() && !qu.empty())
     {
+        if (n != m)
+        {
+            same = false;
+            break;
+        }
+
         if (st.top() != qu.front())
         {
             same = false;
