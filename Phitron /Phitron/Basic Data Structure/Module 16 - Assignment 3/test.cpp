@@ -10,32 +10,31 @@ int main()
     {
         string s;
         cin >> s;
-
         stack<char> st;
+
         for (char c : s)
         {
-            if (!st.empty())
+            st.push(c);
+            while (st.size() >= 2)
             {
-                if (c == '0' && st.top() == '1')
+                char top1 = st.top(); st.pop();
+                char top2 = st.top(); st.pop();
+                if (top1 == top2)
                 {
-                    st.pop();
-                }
-                else if (c == '1' && st.top() == '0')
-                {
-                    st.pop();
+                    continue;
                 }
                 else
                 {
-                    st.push(c);
+                    st.push(top2);
+                    st.push(top1);
+                    break;
                 }
             }
-            else
-                st.push(c);
         }
         if (st.empty())
-            cout << "YES" << endl;
+            cout << "yes\n";
         else
-            cout << "NO" << endl;
+            cout << "NO\n";
     }
 
     return 0;
