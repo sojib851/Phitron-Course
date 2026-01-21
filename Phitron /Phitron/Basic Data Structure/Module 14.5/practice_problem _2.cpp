@@ -1,9 +1,3 @@
-/* Practice problem 2, Module 14-5
-Question: Take a stack of size N and a queue of size M as
-input. Then check if both of them are the same or not in the
-order of removing. You should use STL to solve this problem.
-*/
-
 #include <bits/stdc++.h>
 using namespace std;
 
@@ -53,3 +47,12 @@ int main()
 
     return 0;
 }
+
+/* Practice problem 2, Module 14-5
+Question: Take a stack of size N and a queue of size M as
+input. Then check if both of them are the same or not in the
+order of removing. You should use STL to solve this problem.
+*/
+sakira700
+nickname: sojibhossain500
+ID: 2796

@@ -1,10 +1,3 @@
-/*
-Question: Take two stacks of size N and M as input
-and check if both of them are the same or not.
-Don’t use STL stack to solve this problem.
-*/
-
-//-------> using Stack STL
 #include <bits/stdc++.h>
 using namespace std;
 
@@ -160,3 +153,11 @@ int main()
 
 //     return 0;
 // }
+
+/*
+Question: Take two stacks of size N and M as input
+and check if both of them are the same or not.
+Don’t use STL stack to solve this problem.
+*/
+
+//-------> using Stack STL
